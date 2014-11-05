@@ -4,6 +4,7 @@
 ##!
 ##! This script will log the version of Windows that was identified to the Software framework.
 
+@load base/protocols/http
 @load base/frameworks/software
 
 module OS;
