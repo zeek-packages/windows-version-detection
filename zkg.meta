@@ -1,0 +1,8 @@
+[package]
+description = Zeek package to detect the Windows version via access to Microsoft CRLs
+credits = Vlad Grigorescu <vlad@es.net>
+tags = software, windows, fingerprinting
+
+test_command = cd tests && make
+
+script_dir = ./scripts
