@@ -10,7 +10,7 @@ Zeek Package for Windows Version Detection
    :alt: Documentation Status
 
 .. image:: https://coveralls.io/repos/github/zeek-packages/windows-version-detection/badge.svg?branch=master
-   :target: https://coveralls.io/repos/github/zeek-packages/windows-version-detection?branch=master
+   :target: https://coveralls.io/github/zeek-packages/windows-version-detection?branch=master
    :alt: Coverage Status
 
 .. image:: https://img.shields.io/github/workflow/status/zeek-packages/windows-version-detection/Cruft?label=Latest%20Template
