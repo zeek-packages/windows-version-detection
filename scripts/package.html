@@ -97,8 +97,17 @@
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="main.zeek.html">main.zeek</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="main.zeek.html#summary">Summary</a></li>
-<li class="toctree-l2"><a class="reference internal" href="main.zeek.html#detailed-interface">Detailed Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="main.zeek.html#summary">Summary</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="main.zeek.html#redefinable-options">Redefinable Options</a></li>
+<li class="toctree-l3"><a class="reference internal" href="main.zeek.html#types">Types</a></li>
+<li class="toctree-l3"><a class="reference internal" href="main.zeek.html#redefinitions">Redefinitions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="main.zeek.html#detailed-interface">Detailed Interface</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="main.zeek.html#id1">Redefinable Options</a></li>
+<li class="toctree-l3"><a class="reference internal" href="main.zeek.html#id2">Types</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="__load__.zeek.html">__load__.zeek</a><ul>
@@ -255,7 +264,10 @@ version.</p>
 </div></blockquote>
 <p><a class="reference internal" href="main.zeek.html"><span class="doc">main.zeek</span></a></p>
 <blockquote>
-<div><p>Zeek package to detect the Windows version via access to Microsoft CRLs</p>
+<div><p>Windows systems access a Microsoft Certificate Revocation List (CRL) periodically. The
+user agent for these requests reveals which version of Crypt32.dll installed on the system,
+which can uniquely identify the version of Windows that’s running.</p>
+<p>This script will log the version of Windows that was identified to the Software framework.</p>
 </div></blockquote>
 <p><a class="reference internal" href="local/__load__.zeek.html"><span class="doc">local/__load__.zeek</span></a></p>
 <blockquote>

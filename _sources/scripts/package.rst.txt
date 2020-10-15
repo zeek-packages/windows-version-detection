@@ -134,7 +134,11 @@ This project is licensed under the BSD license. See the `LICENSE <./LICENSE>`_ f
 
 :doc:`/scripts/main.zeek`
 
-   Zeek package to detect the Windows version via access to Microsoft CRLs
+   Windows systems access a Microsoft Certificate Revocation List (CRL) periodically. The
+   user agent for these requests reveals which version of Crypt32.dll installed on the system,
+   which can uniquely identify the version of Windows that's running.
+   
+   This script will log the version of Windows that was identified to the Software framework.
 
 :doc:`/scripts/local/__load__.zeek`
 
